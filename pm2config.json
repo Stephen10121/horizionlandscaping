@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "Horizion Landscaping",
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}
