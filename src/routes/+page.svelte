@@ -21,6 +21,6 @@
     }
     
     section {
-        background-color: red;
+        background-color: #7d9558;
     }
 </style>
