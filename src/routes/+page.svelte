@@ -1,36 +1,102 @@
 <script lang="ts">
-    import Home from "$lib/Home.svelte";
+    import HomeSection1 from "$lib/HomeSection1.svelte";
 </script>
 
-<main>
-    <!-- <section>1</section>
-    <section>2</section>
-    <Home />
-    <section>4</section>
-    <section>5</section> -->
-    <p class="dm-serif-text-regular">Under Construction</p>
-    <a class="dm-serif-text-regular" href="https://www.google.com/search?q=Horizion+Landscaping+LLC">Google Profile</a>
-</main>
+<section>
+    <!-- <p class="dm-serif-text-regular">Under Construction</p>
+    <a class="dm-serif-text-regular" href="https://maps.app.goo.gl/ywuXjyBe9uTCjR9U8">Google Profile</a> -->
+    <div class="imageParent">
+        <enhanced:img class="img" src="../pics/house.jpg" alt="Finished Landscape photos." />
+        <a class="content" href="/about">
+            <p class="dm-serif-text-regular">About</p>
+        </a>
+    </div>
+    <div class="imageParent">
+        <enhanced:img class="img" src="../pics/path.jpg" alt="Finished Landscape photos." />
+        <a class="content" href="/about">
+            <p class="dm-serif-text-regular">Services</p>
+        </a>
+    </div>
+    <div class="imageParent">
+        <enhanced:img class="img" src="../pics/sidewalk.jpg" alt="Finished Landscape photos." />
+        <a class="content" href="/about">
+            <p class="dm-serif-text-regular">Gallery</p>
+        </a>
+    </div>
+    <div class="imageParent">
+        <enhanced:img class="img" src="../pics/yard.jpg" alt="Finished Landscape photos." />
+        <a class="content" href="/about">
+            <p class="dm-serif-text-regular">Contact</p>
+        </a>
+    </div>
+</section>
+
+<!-- <HomeSection1 /> -->
 
 <style>
-    main {
+    section {
+        height: 100vh;
+        height: 100dvh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+        isolation: isolate;
+    }
+
+    .imageParent {
         width: 100%;
         height: 100%;
-        background-color: #dfdfdf;
-        /* display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        column-gap: 1px; */
+        overflow: hidden;
+        position: relative;
+    }
+
+    .img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50.1%, -50.1%);
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        filter: grayscale(1);
+        transition: filter 0.15s linear;
+    }
+
+    .content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(16, 158, 16, 0.267); */
+        background-color: #254d373f;
+        /* background-color: rgba(83, 83, 83, 0.411); */
+        left: 0;
+        top: 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        text-decoration: none;
     }
 
-    p {
-        font-size: 2rem;
+    .imageParent:hover .img {
+        filter: grayscale(0);
     }
-    
-    section {
-        background-color: #7d9558;
+
+    .content p {
+        color: #ffffff;
+        font-size: 2rem;
+        text-shadow: 1px 1px 3px #000000;
+    }
+
+    @media screen and (min-width: 800px) {
+        section {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+
+        .content p {
+            font-size: 2.5rem;
+        }
     }
 </style>
