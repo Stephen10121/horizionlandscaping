@@ -2,12 +2,14 @@
     import { enhance } from '$app/forms';
 
     export let whereFrom: string;
+    export let h2message = "Contact us for a quote!";
+    export let description = "Fill out the form below to request a free quote or learn more about our services.";
 </script>
 
 <section id="contact">
     <div class="p1">
-        <h2 class="dm-serif-text-regular">Contact us for a quote!</h2>
-        <p>Fill out the form below to request a free quote or learn more about our services.</p>
+        <h2 class="dm-serif-text-regular">{h2message}</h2>
+        <p>{description}</p>
         <form method="POST" use:enhance>
             <input type="hidden" name="whereFrom" value={whereFrom} />
             <input required name="name" type="text" placeholder="Name" />

@@ -37,18 +37,22 @@
 <div class="box"></div>
 <section>
     <div class="imageParent">
-        <enhanced:img class="img" src="../../pics/barkandrock.png" alt="Finished Landscape photos." />
+        <enhanced:img class="img" src="../../pics/services.png" alt="Finished Landscape photos." />
         <div class="content">
             <div class="inner">
                 <h2 class="dm-serif-text-regular">Services</h2>
-                <p>At Horizion Landscaping LLC, we pride ourselves on providing comprehensive landscaping services to the Vancouver and Portland areas. Our team of skilled professionals is dedicated to transforming your outdoor spaces into beautiful, functional, and well-maintained environments. Our services include:</p>
+                <p>At Horizion Landscaping LLC, we strive to provide comprehensive landscaping services to the Vancouver and Portland areas. Our team of skilled professionals is dedicated to transforming your outdoor spaces into beautiful, functional, and well-maintained environments. Our services include:</p>
             </div>
         </div>
     </div>
 </section>
 
 <ServicesSection2 />
-<GetInTouch whereFrom="services-section" />
+<GetInTouch
+    whereFrom="services-section"
+    h2message="Contact us about our services"
+    description="Learn more about what we can offer you by contacting us."
+/>
 
 <style>
     section {
