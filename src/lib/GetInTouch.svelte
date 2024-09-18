@@ -110,55 +110,11 @@
     .image-box {
         width: 100%;
         max-width: 540px;
+        max-height: 100%;
         aspect-ratio: 1;
         overflow: hidden;
         border-radius: 10px;
         position: relative;
-    }
-    
-    .image-box-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50.1%, -50.1%);
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        animation: unzoom 0.25s linear forwards;
-    }
-
-    .image-box-image:hover {
-        animation: zoom 0.25s linear forwards;
-    }
-
-    @keyframes zoom {
-        0% {
-            width: 100%;
-            height: 100%;
-        }
-        60% {
-            width: 135%;
-            height: 135%;
-        }
-        100% {
-            width: 130%;
-            height: 130%;
-        }
-    }
-
-    @keyframes unzoom {
-        0% {
-            width: 130%;
-            height: 130%;
-        }
-        40% {
-            width: 135%;
-            height: 135%;
-        }
-        100% {
-            width: 100%;
-            height: 100%;
-        }
     }
 
     @media screen and (min-width: 800px) {

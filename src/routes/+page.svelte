@@ -2,6 +2,28 @@
     import HomeSection1 from "$lib/HomeSection1.svelte";
 </script>
 
+<svelte:head>
+    <link rel="canonical" href="https://thelocalfenceco.com/" />
+    <!-- Primary Meta Tags -->
+    <title>Horizion Landscaping LLC: Home</title>
+    <meta name="title" content="Horizion Landscaping LLC: Home" />
+    <meta name="description" content="Horizion Landscaping LLC offers high quality services for your landscaping needs. Yard cleanups, lawn maintenance, trimming, hauling, gutter cleaning, etc." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://horizionlandscaping.llc/" />
+    <meta property="og:title" content="Horizion Landscaping LLC: Home" />
+    <meta property="og:description" content="Horizion Landscaping LLC offers high quality services for your landscaping needs. Yard cleanups, lawn maintenance, trimming, hauling, gutter cleaning, etc." />
+    <meta property="og:image" content="https://horizionlandscaping.llc/previewpic.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://horizionlandscaping.llc/" />
+    <meta property="twitter:title" content="Horizion Landscaping LLC: Home" />
+    <meta property="twitter:description" content="Horizion Landscaping LLC offers high quality services for your landscaping needs. Yard cleanups, lawn maintenance, trimming, hauling, gutter cleaning, etc." />
+    <meta property="twitter:image" content="https://horizionlandscaping.llc/previewpic.png" />
+</svelte:head>
+
 <section>
     <!-- <p class="dm-serif-text-regular">Under Construction</p>
     <a class="dm-serif-text-regular" href="https://maps.app.goo.gl/ywuXjyBe9uTCjR9U8">Google Profile</a> -->

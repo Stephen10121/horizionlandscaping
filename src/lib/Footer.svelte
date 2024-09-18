@@ -34,7 +34,7 @@
     footer {
         max-height: 310px;
         overflow: hidden;
-        background-color: #794f42;
+        background-color: #88665c;
         padding: 40px 20px;
         display: flex;
         gap: 120px;
@@ -107,14 +107,6 @@
         text-decoration: none;
     }
 
-    .coolFence {
-        position: absolute;
-        top: 20px;
-        right: 0;
-        width: 40%;
-        display: none;
-    }
-
     @media screen and (min-width: 450px) {
         .inf {
             display: flex;
@@ -134,12 +126,6 @@
 
         #company {
             display: flex;
-        }
-    }
-
-    @media screen and (min-width: 1500px) {
-        .coolFence {
-            display: block;
         }
     }
 </style>

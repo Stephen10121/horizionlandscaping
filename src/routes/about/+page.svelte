@@ -1,7 +1,39 @@
 <script lang="ts">
+    import AboutSection2 from "$lib/AboutSection2.svelte";
     import GetInTouch from "$lib/GetInTouch.svelte";
+    import Toast from "$lib/Toast.svelte";
 
+    export let form;
 </script>
+
+<svelte:head>
+    <link rel="canonical" href="https://thelocalfenceco.com/about" />
+    <!-- Primary Meta Tags -->
+    <title>Horizion Landscaping LLC: About</title>
+    <meta name="title" content="Horizion Landscaping LLC: About" />
+    <meta name="description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://horizionlandscaping.llc/about" />
+    <meta property="og:title" content="Horizion Landscaping LLC: About" />
+    <meta property="og:description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
+    <meta property="og:image" content="https://horizionlandscaping.llc/previewpic.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://horizionlandscaping.llc/about" />
+    <meta property="twitter:title" content="Horizion Landscaping LLC: About" />
+    <meta property="twitter:description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
+    <meta property="twitter:image" content="https://horizionlandscaping.llc/previewpic.png" />
+</svelte:head>
+
+{#if form?.success}
+    <Toast message="Form Sent Successfully" />
+{:else if form && !form.success}
+    <Toast borderColor="#af3636" message="Failed to send form." />
+{/if}
+
 <div class="box"></div>
 <section>
     <div class="imageParent">
@@ -15,6 +47,7 @@
     </div>
 </section>
 
+<AboutSection2 />
 <GetInTouch whereFrom="about-section" />
 
 <style>
@@ -75,6 +108,7 @@
         font-size: 1.15rem;
         /* text-shadow: 1px 1px 3px #000000; */
         line-height: 4ch;
+        text-indent: 1em;
     }
 
     @media screen and (min-width: 800px) {
