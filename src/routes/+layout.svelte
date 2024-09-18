@@ -105,6 +105,7 @@ import Hamburger from "$lib/Hamburger.svelte";
         display: flex;
         align-items: center;
         justify-content: center;
+        isolation: isolate;
     }
 
     .menu .logo {
@@ -117,6 +118,7 @@ import Hamburger from "$lib/Hamburger.svelte";
         left: 50%;
         transform: translate(-50%, -50%);
         opacity: 0.1;
+        z-index: -1;
     }
 
     ul {
