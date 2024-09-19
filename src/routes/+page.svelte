@@ -58,7 +58,6 @@
 <style>
     section {
         height: 100vh;
-        height: 100dvh;
         width: 100vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
