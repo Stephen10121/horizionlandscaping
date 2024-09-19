@@ -41,7 +41,7 @@
     </div>
     <div class="imageParent">
         <enhanced:img class="img" src="../pics/sidewalk.jpg" alt="Finished Landscape photos." />
-        <a class="content" href="/about">
+        <a class="content" href="/gallery">
             <p class="dm-serif-text-regular">Gallery</p>
         </a>
     </div>

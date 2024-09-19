@@ -1,6 +1,6 @@
 <script lang="ts">
+    import GallerySection2 from "$lib/GallerySection2.svelte";
     import GetInTouch from "$lib/GetInTouch.svelte";
-    import ServicesSection2 from "$lib/ServicesSection2.svelte";
     import Toast from "$lib/Toast.svelte";
 
     export let form;
@@ -11,20 +11,20 @@
     <!-- Primary Meta Tags -->
     <title>Horizion Landscaping LLC: Gallery</title>
     <meta name="title" content="Horizion Landscaping LLC: Gallery" />
-    <meta name="description" content="Explore our gallery to see stunning transformations and beautiful landscapes we’ve created. Get inspired by our work and envision your dream outdoor space!" />
+    <meta name="description" content="Explore our gallery to see stunning transformations and beautiful landscapes we've created. Get inspired by our work and envision your dream outdoor space!" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://horizionlandscaping.llc/gallery" />
     <meta property="og:title" content="Horizion Landscaping LLC: Gallery" />
-    <meta property="og:description" content="Explore our gallery to see stunning transformations and beautiful landscapes we’ve created. Get inspired by our work and envision your dream outdoor space!" />
+    <meta property="og:description" content="Explore our gallery to see stunning transformations and beautiful landscapes we've created. Get inspired by our work and envision your dream outdoor space!" />
     <meta property="og:image" content="https://horizionlandscaping.llc/previewpic.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://horizionlandscaping.llc/gallery" />
     <meta property="twitter:title" content="Horizion Landscaping LLC: Gallery" />
-    <meta property="twitter:description" content="Explore our gallery to see stunning transformations and beautiful landscapes we’ve created. Get inspired by our work and envision your dream outdoor space!" />
+    <meta property="twitter:description" content="Explore our gallery to see stunning transformations and beautiful landscapes we've created. Get inspired by our work and envision your dream outdoor space!" />
     <meta property="twitter:image" content="https://horizionlandscaping.llc/previewpic.png" />
 </svelte:head>
 
@@ -47,11 +47,11 @@
     </div>
 </section>
 
-<ServicesSection2 />
+<GallerySection2 />
 <GetInTouch
     whereFrom="gallery-section"
-    h2message="Contact us about our services"
-    description="Learn more about what we can offer you by contacting us."
+    h2message="Want more pictures?"
+    description="Contact us for a free quote and some pics if you want."
 />
 
 <style>
