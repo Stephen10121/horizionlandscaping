@@ -125,7 +125,7 @@
 
     .content p {
         color: #ffffff;
-        font-size: 1.15rem;
+        font-size: clamp(0.95rem, 0.8676rem + 0.3765vw, 1.15rem);
         /* text-shadow: 1px 1px 3px #000000; */
         line-height: 4ch;
         text-indent: 1em;

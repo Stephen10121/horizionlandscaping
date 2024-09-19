@@ -41,7 +41,7 @@
         <div class="content">
             <div class="inner">
                 <h2 class="dm-serif-text-regular">Gallery</h2>
-                <p>At Horizion Landscaping LLC, we strive to provide comprehensive landscaping services to the Vancouver and Portland areas. Our team of skilled professionals is dedicated to transforming your outdoor spaces into beautiful, functional, and well-maintained environments. Our services include:</p>
+                <p>Here, you'll find a showcase of our finest work, highlighting the transformation of outdoor spaces in the Vancouver and Portland areas. Browse through our collection of stunning landscapes, from lush gardens to elegant patios, and see the quality and creativity that define our services.</p>
             </div>
         </div>
     </div>
@@ -109,7 +109,7 @@
 
     .content p {
         color: #ffffff;
-        font-size: 1.15rem;
+        font-size: clamp(0.95rem, 0.8676rem + 0.3765vw, 1.15rem);
         /* text-shadow: 1px 1px 3px #000000; */
         line-height: 4ch;
         text-indent: 1em;

@@ -9,21 +9,21 @@
 <svelte:head>
     <link rel="canonical" href="https://thelocalfenceco.com/about" />
     <!-- Primary Meta Tags -->
-    <title>Horizion Landscaping LLC: About</title>
-    <meta name="title" content="Horizion Landscaping LLC: About" />
+    <title>About - Horizion Landscaping LLC</title>
+    <meta name="title" content="About - Horizion Landscaping LLC" />
     <meta name="description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://horizionlandscaping.llc/about" />
-    <meta property="og:title" content="Horizion Landscaping LLC: About" />
+    <meta property="og:title" content="About - Horizion Landscaping LLC" />
     <meta property="og:description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
     <meta property="og:image" content="https://horizionlandscaping.llc/previewpic.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://horizionlandscaping.llc/about" />
-    <meta property="twitter:title" content="Horizion Landscaping LLC: About" />
+    <meta property="twitter:title" content="About - Horizion Landscaping LLC" />
     <meta property="twitter:description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
     <meta property="twitter:image" content="https://horizionlandscaping.llc/previewpic.png" />
 </svelte:head>
@@ -105,7 +105,8 @@
 
     .content p {
         color: #ffffff;
-        font-size: 1.15rem;
+        /* font-size: 0.95rem; */
+        font-size: clamp(0.95rem, 0.8676rem + 0.3765vw, 1.15rem);
         /* text-shadow: 1px 1px 3px #000000; */
         line-height: 4ch;
         text-indent: 1em;
