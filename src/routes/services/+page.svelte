@@ -41,7 +41,7 @@
         <div class="content">
             <div class="inner">
                 <h2 class="dm-serif-text-regular">Services</h2>
-                <p>At Horizion Landscaping LLC, we strive to provide comprehensive landscaping services to the Vancouver and Portland areas. Our team of skilled professionals is dedicated to transforming your outdoor spaces into beautiful, functional, and well-maintained environments. Our services include:</p>
+                <p>At Horizion Landscaping LLC, we strive to provide comprehensive landscaping services to the Clark County area. Our team of skilled professionals is dedicated to transforming your outdoor spaces into beautiful, functional, and well-maintained environments. Our services include:</p>
             </div>
         </div>
     </div>

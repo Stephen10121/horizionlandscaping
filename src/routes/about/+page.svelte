@@ -11,20 +11,20 @@
     <!-- Primary Meta Tags -->
     <title>About - Horizion Landscaping LLC</title>
     <meta name="title" content="About - Horizion Landscaping LLC" />
-    <meta name="description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
+    <meta name="description" content="Horizion Landscaping LLC offers top-notch landscaping services in Clark County. We transform outdoor spaces into beautiful, functional landscapes." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://horizionlandscaping.llc/about" />
     <meta property="og:title" content="About - Horizion Landscaping LLC" />
-    <meta property="og:description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
+    <meta property="og:description" content="Horizion Landscaping LLC offers top-notch landscaping services in Clark County. We transform outdoor spaces into beautiful, functional landscapes." />
     <meta property="og:image" content="https://horizionlandscaping.llc/previewpic.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://horizionlandscaping.llc/about" />
     <meta property="twitter:title" content="About - Horizion Landscaping LLC" />
-    <meta property="twitter:description" content="Horizion Landscaping LLC offers top-notch landscaping services in Vancouver and Portland. We transform outdoor spaces into beautiful, functional landscapes." />
+    <meta property="twitter:description" content="Horizion Landscaping LLC offers top-notch landscaping services in Clark County. We transform outdoor spaces into beautiful, functional landscapes." />
     <meta property="twitter:image" content="https://horizionlandscaping.llc/previewpic.png" />
 </svelte:head>
 
@@ -41,7 +41,7 @@
         <div class="content">
             <div class="inner">
                 <h2 class="dm-serif-text-regular">About Us</h2>
-                <p>Welcome to Horizon Landscaping, your trusted partner for all your yard care needs in the Portland metropolitan area. We specialize in yard cleanups, lawn maintenance, trimming, hauling, gutter cleaning, pressure washing, and more. Our dedicated team is committed to transforming your outdoor spaces into beautiful, well-maintained landscapes. With a focus on quality and customer satisfaction, we strive to exceed your expectations with every project. Let us help you create the perfect outdoor oasis!</p>
+                <p>Welcome to Horizion Landscaping, your trusted partner for all your yard care needs in the Clark County area. We specialize in yard cleanups, lawn maintenance, trimming, hauling, gutter cleaning, pressure washing, and more. Our dedicated team is committed to transforming your outdoor spaces into beautiful, well-maintained landscapes. With a focus on quality and customer satisfaction, we strive to exceed your expectations with every project. Let us help you create the perfect outdoor oasis!</p>
             </div>
         </div>
     </div>
