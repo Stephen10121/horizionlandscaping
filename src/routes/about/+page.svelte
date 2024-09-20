@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/about" />
+    <link rel="canonical" href="https://horizionlandscaping.llc/about" />
     <!-- Primary Meta Tags -->
     <title>About - Horizion Landscaping LLC</title>
     <meta name="title" content="About - Horizion Landscaping LLC" />

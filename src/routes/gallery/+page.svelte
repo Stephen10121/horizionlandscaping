@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/gallery" />
+    <link rel="canonical" href="https://horizionlandscaping.llc/gallery" />
     <!-- Primary Meta Tags -->
     <title>Horizion Landscaping LLC: Gallery</title>
     <meta name="title" content="Horizion Landscaping LLC: Gallery" />

@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/contact" />
+    <link rel="canonical" href="https://horizionlandscaping.llc/contact" />
     <!-- Primary Meta Tags -->
     <title>Horizion Landscaping LLC: Contact</title>
     <meta name="title" content="Horizion Landscaping LLC: Contact" />
