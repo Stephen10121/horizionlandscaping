@@ -22,3 +22,6 @@ vite.config.ts.timestamp-*
 
 
 com.txt
+docker-compose.yaml
+horizion.env
+uploaddocker.sh

@@ -50,7 +50,7 @@
 </section>
 
 <GetInTouch
-    whereFrom="gallery-section"
+    whereFrom="contact-section"
     h2message="Contact us directly!"
 />
 

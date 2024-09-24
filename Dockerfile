@@ -1,6 +1,13 @@
 FROM node:18-alpine AS builder
 WORKDIR /app
 COPY package*.json .
+
+ARG VITE_RESEND_KEY
+ARG VITE_EMAIL
+
+ENV VITE_RESEND_KEY=$VITE_RESEND_KEY
+ENV VITE_EMAIL=$VITE_EMAIL
+
 RUN npm ci
 COPY . .
 RUN npm run build
@@ -18,4 +25,4 @@ ENV NODE_ENV=production
 ENV PORT=3011
 ENV ORIGIN=http://localhost:3011
 
-CMD [ "node", "build" ]
+CMD [ "npm", "run", "production" ]
