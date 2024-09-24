@@ -11,6 +11,11 @@ WORKDIR /app
 COPY --from=builder /app/build build/
 COPY --from=builder /app/node_modules node_modules/
 COPY package.json .
-EXPOSE 3000
+EXPOSE 3011
+
 ENV NODE_ENV=production
+# ENV HOST=0.0.0.0
+ENV PORT=3011
+ENV ORIGIN=http://localhost:3011
+
 CMD [ "node", "build" ]

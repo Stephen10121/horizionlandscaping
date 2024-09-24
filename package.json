@@ -8,7 +8,8 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"start": "HOST=127.0.0.1 PORT=9000 node build"
+		"start": "HOST=127.0.0.1 PORT=9000 node build",
+		"docker": "docker build -t stephen10121/horizionlandscaping:1.0 ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",

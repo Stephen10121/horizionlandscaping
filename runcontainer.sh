@@ -1,0 +1,1 @@
+docker run -d -p 3011:3011 stephen10121/horizionlandscaping:1.0
