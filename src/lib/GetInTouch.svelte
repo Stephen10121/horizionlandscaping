@@ -3,7 +3,7 @@
 
     export let whereFrom: string;
     export let h2message = "Contact us for a quote!";
-    export let description = "Fill out the form below to request a free quote or learn more about our services.";
+    export let description = "Fill out the form below to request a free quote or learn more about our services!";
 </script>
 
 <section id="contact">
