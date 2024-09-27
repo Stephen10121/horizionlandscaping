@@ -21,4 +21,5 @@ jobs:
             docker tag stephen10121/horizionlandscaping:1.${{ github.run_number }} stephen10121/horizionlandscaping:prod
             docker tag stephen10121/horizionlandscaping:1.${{ github.run_number }} stephen10121/horizionlandscaping:1.${{ github.run_number }}
             docker image ls
-            docker image push --all-tags stephen10121/horizionlandscaping:1.${{ github.run_number }}
+            docker image push stephen10121/horizionlandscaping:prod
+            docker image push stephen10121/horizionlandscaping:1.${{ github.run_number }}
