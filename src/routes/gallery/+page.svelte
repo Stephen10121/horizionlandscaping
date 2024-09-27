@@ -41,7 +41,7 @@
         <div class="content">
             <div class="inner">
                 <h2 class="dm-serif-text-regular">Gallery</h2>
-                <p>Here, you'll find a showcase of our finest work, highlighting the transformation of outdoor spaces in the Clark County area. Browse through our collection of stunning landscapes, from lush gardens to elegant patios, and see the quality and creativity that define our services.</p>
+                <p>Here, you'll find a showcase of our finest work, highlighting the transformation of outdoor spaces in the Clark County area! Browse through our collection of stunning landscapes, from lush gardens to elegant patios, and see the quality and creativity that define our services.</p>
             </div>
         </div>
     </div>
